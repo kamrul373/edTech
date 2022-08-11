@@ -12,3 +12,9 @@
     background: #1D1D1D;
     opacity: 0.6;
 }
+
+@media all and (max-width:570px) {
+    h1 {
+        font-size: 18px !important;
+    }
+}
