@@ -16,7 +16,7 @@
     <!-- Header area start  -->
     <header>
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <div class="container">
                 <a class="h1 text-dark text-decoration-none" href="#">EduMan</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -237,6 +237,111 @@
             </div>
         </section>
         <!-- register modal area end -->
+
+        <!-- FAQ area starts -->
+        <section class="container faq pb-5">
+            <div class="section-heading text-center py-5 ">
+                <h2 class="fw-bold">Frequently Asked Questions</h2>
+                <p class="text-muted">It is a long established fact that a reader will be distracted by the readable
+                    <br>
+                    content of a page when looking at its layout.
+                </p>
+            </div>
+            <div class="accordion w-75 mx-auto" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button text-dark fw-bolder fs-5" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            What are differences between Bootstrap & Tailwind CSS ?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-muted fs-5">
+                            <P>
+                                Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and
+                                uniqueness.Tailwind offers predesigned widgets to build a site from scratch with fast UI
+                                development.
+                            </P>
+                            <P>Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess
+                                a definite UI kit.Sites created using Bootstrap follow the generic pattern that makes
+                                them look identical.</P>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button text-dark fw-bolder fs-5" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                aria-controls="collapseTwo">
+                                What are semantic tags ?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted fs-5">
+                                <P>
+                                    The core characteristic of a semantic element is that it clearly communicated its
+                                    meaning to both the developer and the browser. These elements clearly define its
+                                    content.
+                                </P>
+                                <P>Examples
+                                    :&lt;article&gt;&lt;nav&gt;&lt;section&gt;&lt;header&gt;&lt;footer&gt;&lt;main&gt;&lt;aside&gt;
+                                </P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button text-dark fw-bolder fs-5" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                                aria-controls="collapseThree">
+                                What are differences between flex & grid ?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted fs-5">
+                                <P>
+                                    Grid is made for two-dimensional layout while Flexbox is for one.
+                                </P>
+                                <P>The Flexbox layout is best suited to application components and small-scale layouts,
+                                    while the Grid layout is designed for larger-scale layouts that are not linear in
+                                    design.
+                                </P>
+                                <p>Flex Direction allows developers to align elements vertically or horizontally, which
+                                    is used when developers create and reverse rows or columns.CSS Grid deploys
+                                    fractional measure units for grid fluidity and auto-keyword functionality to
+                                    automatically adjust columns or rows.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button text-dark fw-bolder fs-5" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                                aria-controls="collapseTwo">
+                                What is CSS box model ?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted fs-5">
+                                <P>
+                                    The CSS box model is essentially a box that wraps around every HTML element. It
+                                    consists of: margins, borders, padding, and the actual content. The image below
+                                    illustrates the box model:
+                                </P>
+                                <p class="text-center">
+                                    <img src="images/box-model.png" alt="box-model">
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- FAQ area end -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
