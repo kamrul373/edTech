@@ -14,7 +14,7 @@
 }
 
 footer {
-    background-color: #161616;
+    background: #161616;
 }
 
 @media all and (max-width:570px) {
