@@ -186,6 +186,57 @@
             </div>
         </section>
         <!-- popular courses area end -->
+
+        <!-- register modal area starts -->
+        <section class="container registraion-modal-area bg-primary rounded-3 p-5 my-5">
+            <div class="row text-lg-start text-center ">
+                <div class="col-lg-9 ">
+                    <h2 class="text-white fw-bold">Ready to join?</h2>
+                    <p class="text-light fw-light">It is a long established fact that a reader will be distracted by the
+                        readable <br>content of a page when looking at its layout.</p>
+                </div>
+                <div class="col-lg-3 m-auto">
+                    <button type="button" class="btn btn-lg rounded-3 btn-light text-primary fw-bold px-4"
+                        data-bs-toggle="modal" data-bs-target="#registerModal">
+                        Register now
+                    </button>
+                </div>
+            </div>
+            <!-- modal -->
+            <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Register Now!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">I agree with all
+                                        terms&conditions.</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- register modal area end -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
